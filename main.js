@@ -4,7 +4,7 @@ let sorrentinos = [
     {sabor: "Calabaza y Queso", precio: 450}
 ]
 
-const dibujarproductos = ()=>{
+const dibujarProductos = ()=>{
 let contenedor = document.querySelector(".tarjetaIndex");
 sorrentinos.forEach((producto, indice)=> {
     let tarjeta = document.createElement("div");     
@@ -17,7 +17,7 @@ sorrentinos.forEach((producto, indice)=> {
 })
 
 }
-dibujarproductos();
+dibujarProductos();
 
 const agregarCarrito = ()=>{
     alert("Producto agregado al Carrito");
